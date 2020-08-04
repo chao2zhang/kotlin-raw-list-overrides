@@ -5,10 +5,12 @@ buildscript {
         maven { url "https://dl.bintray.com/kotlin/kotlin-eap" }
     }
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4-M3"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0-rc"
     }
 }
+
 apply plugin: "kotlin"
+
 repositories {
     mavenCentral()
     maven { url "https://dl.bintray.com/kotlin/kotlin-eap" }
